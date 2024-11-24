@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Latitude Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+    <EditText
+        android:id="@+id/input_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Latitude"
+        android:inputType="numberDecimal"
+        android:padding="12dp" />
+
+    <!-- Longitude Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"
+        android:paddingTop="16dp" />
+    <EditText
+        android:id="@+id/input_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Longitude"
+        android:inputType="numberDecimal"
+        android:padding="12dp" />
+
+    <!-- Date Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date (YYYY-MM-DD)"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"
+        android:paddingTop="16dp" />
+    <EditText
+        android:id="@+id/input_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <!-- Time Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time (HH:MM AM/PM)"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"
+        android:paddingTop="16dp" />
+    <EditText
+        android:id="@+id/input_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <!-- Description Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"
+        android:paddingTop="16dp" />
+    <EditText
+        android:id="@+id/input_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <!-- Update Colony Button -->
+
+    <Button
+        android:id="@+id/update_colony_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Update Colony"
+        android:padding="10dp" /> />
+
+</LinearLayout>
